@@ -1,0 +1,87 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+body {
+  background-color: #E9E9E9;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.Title{
+  color:#6A6A6A;
+}
+
+.Card-Component{
+  padding: 5px;
+  padding-top: 20px;
+  margin: 0 10px;
+}
+
+.Card-Component p{
+  margin: 0px;
+}
+
+.Main-Container{
+  text-align: left;
+  display: flex;
+  width: auto;
+  justify-content: space-around;
+  align-items: center;
+  border-top-color: #6A6A6A;
+  border-top-width: 5px;
+  border-top-style: solid;
+}
+
+.Rating-Green{
+  color: green;
+}
+
+.Rating-Red{
+  color: orangered;
+}
+
+.Text-Location{
+  color: black;
+}
+
+.Text-Default{
+  color:#6A6A6A;
+}
